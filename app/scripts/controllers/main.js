@@ -9,9 +9,6 @@
  */
 angular.module('calculatorApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    $scope.result = 0;
+    $scope.display = $scope.result;
   });
